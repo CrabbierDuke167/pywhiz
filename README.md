@@ -1,26 +1,50 @@
 <div align="center">
 
-# ⚡ PyWhiz
+<h1>PyWhiz</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/pypi/v/pywhiz?color=3776AB&style=for-the-badge&logo=python&logoColor=white" alt="PyPI Version" />
-  <img src="https://img.shields.io/github/license/DiyonDaison/pywhiz?color=22c55e&style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/pypi/pyversions/pywhiz?color=9333ea&style=for-the-badge&logo=python&logoColor=white" alt="Python Versions" />
-  <img src="https://img.shields.io/github/stars/DiyonDaison/pywhiz?color=eab308&style=for-the-badge&logo=github" alt="GitHub Stars" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="45" height="45" alt="Python Logo" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="45" height="45" alt="VSCode Logo" />
 </p>
 
 <p align="center">
-  <b>A modern, high-efficiency utility package for Python.</b>
+  <a href="https://pypi.org/project/pywhiz/">
+    <img src="https://img.shields.io/pypi/v/pywhiz?color=3776AB&style=for-the-badge&logo=python&logoColor=white" alt="PyPI Version" />
+  </a>
+  <a href="https://github.com/DiyonDaison/pywhiz/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/DiyonDaison/pywhiz?color=22c55e&style=for-the-badge" alt="License" />
+  </a>
+  <a href="https://pypi.org/project/pywhiz/">
+    <img src="https://img.shields.io/pypi/pyversions/pywhiz?color=9333ea&style=for-the-badge&logo=python&logoColor=white" alt="Python Versions" />
+  </a>
+  <a href="https://github.com/DiyonDaison/pywhiz/stargazers">
+    <img src="https://img.shields.io/github/stars/DiyonDaison/pywhiz?color=eab308&style=for-the-badge&logo=github" alt="GitHub Stars" />
+  </a>
 </p>
+
+<h3>A modern, high-efficiency utility package for Python.</h3>
 
 </div>
 
----
+<br/>
 
-## ⚙️ Installation
+## Installation
 
 Install the package directly from PyPI via `pip`:
 
 ```bash
 pip install pywhiz
 ```
+
+## Contributors
+
+| Name             | GitHub Profile                                   |
+| :--------------- | :----------------------------------------------- |
+| **nihal-sam911** | [@nihal-sam911](https://github.com/nihal-sam911) |
+| **RETHIK-KT**    | [@RETHIK-KT](https://github.com/RETHIK-KT)       |
+
+### Acknowledgements
+
+- A big thanks to [@nihal-sam911](https://github.com/nihal-sam911) for their contributions and help with this project!
+- A big thanks to [@RETHIK-KT](https://github.com/RETHIK-KT) for their contributions and help with this project!
