@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pywhiz"
+version = "0.1.1"
+description = "Fast, effortless, and friendly quality-of-life helper functions for Python developers."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Diyon Daison" }
+]
+keywords = ["utilities", "helpers", "shortcuts", "formatting", "easy", "pywhiz"]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/pywhiz"
