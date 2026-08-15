@@ -12,14 +12,14 @@
   <a href="https://pypi.org/project/pywhiz/">
     <img src="https://img.shields.io/pypi/v/pywhiz?color=3776AB&style=for-the-badge&logo=python&logoColor=white" alt="PyPI Version" />
   </a>
-  <a href="https://github.com/DiyonDaison/pywhiz/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/DiyonDaison/pywhiz?color=22c55e&style=for-the-badge" alt="License" />
+  <a href="https://github.com/CrabbierDuke167/pywhiz/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/CrabbierDuke167/pywhiz?color=22c55e&style=for-the-badge" alt="License" />
   </a>
   <a href="https://pypi.org/project/pywhiz/">
     <img src="https://img.shields.io/pypi/pyversions/pywhiz?color=9333ea&style=for-the-badge&logo=python&logoColor=white" alt="Python Versions" />
   </a>
-  <a href="https://github.com/DiyonDaison/pywhiz/stargazers">
-    <img src="https://img.shields.io/github/stars/DiyonDaison/pywhiz?color=eab308&style=for-the-badge&logo=github" alt="GitHub Stars" />
+  <a href="https://github.com/CrabbierDuke167/pywhiz/stargazers">
+    <img src="https://img.shields.io/github/stars/CrabbierDuke167/pywhiz?color=eab308&style=for-the-badge&logo=github" alt="GitHub Stars" />
   </a>
 </p>
 
