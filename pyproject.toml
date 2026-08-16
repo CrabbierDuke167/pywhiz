@@ -12,6 +12,7 @@ license = { text = "MIT" }
 authors = [
     { name = "Diyon Daison" },
     { name = "Rethik Thilak" }
+    { name = "Nihal Sam"}
 
 ]
 keywords = ["utilities", "helpers", "shortcuts", "formatting", "easy", "pywhiz"]
