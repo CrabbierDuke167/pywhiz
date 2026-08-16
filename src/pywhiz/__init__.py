@@ -2,7 +2,11 @@
 pywhiz - Fast, effortless, and friendly Python helper functions.
 """
 
-__version__ = "0.1.6"
+__version__ = "0.1.7"
+
+# fixed: 'not accessed' warning  
+from .geo_utils import perim_square as perim_square
+from .time_utils import t_countdown as t_countdown
 
 from .string_utils import (
     v_count,
@@ -41,6 +45,33 @@ from .time_utils import (
     t_countdown,
 )
 
+from .geo_utils import (
+    perim_square,
+    perim_rect,
+    perim_tri,
+    circum_circle,
+    perim_polygon,
+    area_square,
+    area_rect,
+    area_tri_base,
+    area_tri_herons,
+    area_circle,
+    area_rhombus,
+    area_trapezium,
+    sa_cube,
+    sa_cuboid,
+    sa_cylinder,
+    sa_cone,
+    sa_sphere,
+    sa_hemisphere,
+    vol_cube,
+    vol_cuboid,
+    vol_cylinder,
+    vol_cone,
+    vol_sphere,
+    vol_hemisphere,
+)
+
 __all__ = [
     "v_count",
     "c_count",
@@ -64,4 +95,29 @@ __all__ = [
     "end_timer",
     "t_delay",
     "t_countdown"
+    "perim_square",
+    "perim_rect",
+    "perim_tri",
+    "circum_circle",
+    "perim_polygon",
+    "area_square",
+    "area_rect",
+    "area_tri_base",
+    "area_tri_herons",
+    "area_circle",
+    "area_rhombus",
+    "area_trapezium",
+    "sa_cube",
+    "sa_cuboid",
+    "sa_cylinder",
+    "sa_cone",
+    "sa_sphere",
+    "sa_hemisphere",
+    "vol_cube",
+    "vol_cuboid",
+    "vol_cylinder",
+    "vol_cone",
+    "vol_sphere",
+    "vol_hemisphere",
 ]
+
