@@ -1,5 +1,5 @@
 
-def count(obj,file):
+def txt_wc(obj,file):
     """Count number of a string/word"""
     with open(file, 'r') as f:
         n=0
@@ -10,7 +10,7 @@ def count(obj,file):
                     n+=1
     return n
 
-def position(word,file):
+def txt_w_pos(word,file):
     """Return position(line,nth word) of word"""
     with open(file, 'r') as f:
         text = f.readlines()
