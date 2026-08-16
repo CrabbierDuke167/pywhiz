@@ -24,3 +24,25 @@ def w_count(text):
     """Returns word count."""
     words = text.split()
     return(len(words))
+
+
+def odd_count(num):
+    """Counts of odd  numbers"""
+    count=0
+    for i in num:
+        if isinstance(i,str) and i.isdigit():
+            i=int(i)
+        if isinstance(i,int) and i%2!=0:
+            count+=1
+    return count
+
+def even_count(num):
+    """Counts of even  numbers"""
+    count=0
+    for i in num:
+        if isinstance(i,str) and i.isdigit():
+            i=int(i)
+        if isinstance(i,int) and i%2==0:
+            count+=1
+    return count
+
