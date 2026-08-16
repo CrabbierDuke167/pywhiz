@@ -2,7 +2,7 @@
 pywhiz - Fast, effortless, and friendly Python helper functions.
 """
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 from .string_utils import (
     v_count,
@@ -13,8 +13,8 @@ from .string_utils import (
 )
 
 from .text_file_utils import (
-    countf,
-    positionf,
+    txt_wc,
+    txt_w_pos,
 )
 
 __all__ = [
@@ -23,6 +23,6 @@ __all__ = [
     "w_count",
     "odd_count",
     "even_count",
-    "countf",
-    "positionf",
+    "txt_wc",
+    "txt_w_pos",
 ]
