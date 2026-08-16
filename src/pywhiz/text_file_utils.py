@@ -1,5 +1,6 @@
 
 def count(obj,file):
+    """Count number of a string/word"""
     with open(file, 'r') as f:
         n=0
         for line in f:
@@ -10,6 +11,7 @@ def count(obj,file):
     return n
 
 def position(word,file):
+    """Return position(line,nth word) of word"""
     with open(file, 'r') as f:
         text = f.readlines()
         for y, line in enumerate(text, start=1):
