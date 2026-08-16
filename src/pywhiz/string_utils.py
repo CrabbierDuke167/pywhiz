@@ -46,3 +46,13 @@ def even_count(num):
             count+=1
     return count
 
+def countf(obj,file):
+    with open(file, 'r') as f:
+        n=0
+        for line in f:
+            words = line.split()
+            for word in words:
+                if obj == word:
+                    n+=1
+    return n
+
