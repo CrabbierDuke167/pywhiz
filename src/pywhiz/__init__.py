@@ -25,6 +25,22 @@ from .list_utils import (
     sample,
     sample_one,
 )
+
+from .num_utils import (
+    is_prime,
+    is_armstrong,
+    fibonacci,
+    hcf,
+    lcm,
+)
+
+from .time_utils import (
+    start_timer,
+    end_timer,
+    t_delay,
+    t_countdown,
+)
+
 __all__ = [
     "v_count",
     "c_count",
@@ -39,4 +55,13 @@ __all__ = [
     "shuffle",
     "sample",
     "sample_one",
+    "is_prime",
+    "is_armstrong",
+    "fibonacci",
+    "hcf",
+    "lcm",
+    "start_timer",
+    "end_timer",
+    "t_delay",
+    "t_countdown"
 ]
