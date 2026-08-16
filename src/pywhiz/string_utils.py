@@ -17,7 +17,6 @@ def c_count(text):
     for char in text:
         if char.isalpha() and char not in vowels:
             count+=1
-
     return count
 
 def w_count(text):
@@ -45,4 +44,5 @@ def even_count(num):
         if isinstance(i,int) and i%2==0:
             count+=1
     return count
+
 
