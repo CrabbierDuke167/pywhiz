@@ -36,10 +36,10 @@ pip install pywhiz
 
 ## Contributors
 
-| Name             | GitHub Profile                                   |
-| :--------------- | :----------------------------------------------- |
-| **nihal-sam911** | [@nihal-sam911](https://github.com/nihal-sam911) |
-| **RETHIK-KT**    | [@RETHIK-KT](https://github.com/RETHIK-KT)       |
+| Name              | GitHub Profile                                   |
+| :---------------- | :----------------------------------------------- |
+| **Nihal Sam**     | [@nihal-sam911](https://github.com/nihal-sam911) |
+| **Rethik Thilak** | [@RETHIK-KT](https://github.com/RETHIK-KT)       |
 
 ### Acknowledgements
 
