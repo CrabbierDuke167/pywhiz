@@ -2,7 +2,7 @@
 pywhiz - Fast, effortless, and friendly Python helper functions.
 """
 
-__version__ = "0.1.7"
+__version__ = "0.1.8"
 
 # fixed: 'not accessed' warning  
 from .geo_utils import perim_square as perim_square
@@ -72,6 +72,12 @@ from .geo_utils import (
     vol_hemisphere,
 )
 
+from .csv_utils import (
+    max_csv,
+    min_csv,
+    csv_summary,
+)
+
 __all__ = [
     "v_count",
     "c_count",
@@ -119,5 +125,8 @@ __all__ = [
     "vol_cone",
     "vol_sphere",
     "vol_hemisphere",
+    "max_csv",
+    "min_csv",
+    "csv_summary",
 ]
 
