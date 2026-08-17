@@ -2,7 +2,7 @@
 pywhiz - Fast, effortless, and friendly Python helper functions.
 """
 
-__version__ = "0.1.8"
+__version__ = "0.1.9"
 
 # fixed: 'not accessed' warning  
 from .geo_utils import perim_square as perim_square
@@ -19,6 +19,8 @@ from .string_utils import (
 from .text_file_utils import (
     txt_wc,
     txt_w_pos,
+    txt_cc,
+    txt_cl,
 )
 
 from .list_utils import (
@@ -86,6 +88,8 @@ __all__ = [
     "even_count",
     "txt_wc",
     "txt_w_pos",
+    "txt_cc",
+    "txt_cl",
     "unique",
     "duplicates",
     "compact",

@@ -20,3 +20,19 @@ def txt_w_pos(word,file):
                  return (x, y)
        
     return None
+
+def txt_cc(obj):
+    """Count number of characters"""
+    with open(obj, 'r') as f:
+        text = f.read()
+        n = 0
+        for char in text:
+            n+=1
+    return n
+
+def txt_lc(obj):
+    """Count number of lines"""
+    with open(obj, "r") as f:
+        lines = f.readlines()
+        n = len(lines)
+    return n
