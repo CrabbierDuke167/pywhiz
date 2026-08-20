@@ -1,5 +1,6 @@
 import time
 
+
 def start_timer():
     """Returns the current time in seconds."""
     return time.time()

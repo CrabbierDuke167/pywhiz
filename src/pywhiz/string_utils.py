@@ -26,7 +26,7 @@ def w_count(text):
 
 
 def odd_count(num):
-    """Counts of odd  numbers"""
+    """Counts of odd  numbers."""
     count=0
     for i in num:
         if isinstance(i,str) and i.isdigit():

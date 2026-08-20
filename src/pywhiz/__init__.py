@@ -2,11 +2,7 @@
 pywhiz - Fast, effortless, and friendly Python helper functions.
 """
 
-__version__ = "0.1.9"
-
-# fixed: 'not accessed' warning  
-from .geo_utils import perim_square as perim_square
-from .time_utils import t_countdown as t_countdown
+__version__ = "0.2.0"
 
 from .string_utils import (
     v_count,
@@ -80,6 +76,16 @@ from .csv_utils import (
     csv_summary,
 )
 
+from .api_utils import (
+    make_url,
+    make_query,
+    full_url,
+    is_success,
+    is_client_err,
+    is_server_err,
+    status_msg,
+)
+
 __all__ = [
     "v_count",
     "c_count",
@@ -104,7 +110,7 @@ __all__ = [
     "start_timer",
     "end_timer",
     "t_delay",
-    "t_countdown"
+    "t_countdown",
     "perim_square",
     "perim_rect",
     "perim_tri",
@@ -132,5 +138,11 @@ __all__ = [
     "max_csv",
     "min_csv",
     "csv_summary",
+    "make_url",
+    "make_query",
+    "full_url",
+    "is_success",
+    "is_client_err",
+    "is_server_err",
+    "status_msg",
 ]
-

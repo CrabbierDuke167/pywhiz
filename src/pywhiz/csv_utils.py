@@ -1,5 +1,6 @@
 import csv
 
+
 def numeric_extraction(f,c):
     """Inner Function"""
     vr=0
