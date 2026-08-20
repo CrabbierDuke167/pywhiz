@@ -1,4 +1,3 @@
-
 def txt_wc(obj,file):
     """Count number of a string/word"""
     with open(file, 'r') as f:
@@ -22,7 +21,7 @@ def txt_w_pos(word,file):
     return None
 
 def txt_cc(obj):
-    """Count number of characters"""
+    """Count number of characters."""
     with open(obj, 'r') as f:
         text = f.read()
         n = 0

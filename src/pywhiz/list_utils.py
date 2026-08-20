@@ -1,5 +1,6 @@
 import random
 
+
 def unique(lst):
     """Removes duplicates while preserving original order."""
     seen = []

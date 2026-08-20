@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pywhiz"
-version = "0.1.9"
-description = "Fast, effortless, and friendly quality-of-life helper functions for Python developers."
+version = "0.2.0"
+description = "A friendly, beginner-to-all Python helper package built for learning and hobby collaboration, prioritizing readable code and effortless utilities over pure commercial speed."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
@@ -18,4 +18,4 @@ authors = [
 keywords = ["utilities", "helpers", "shortcuts", "formatting", "easy", "pywhiz"]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/pywhiz"
+"Homepage" = "https://github.com/CrabbierDuke167/pywhiz"
