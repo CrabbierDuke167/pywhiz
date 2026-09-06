@@ -23,9 +23,6 @@ from .list_utils import (
     unique,
     duplicates,
     compact,
-    shuffle,
-    sample,
-    sample_one,
 )
 
 from .num_utils import (
@@ -99,9 +96,6 @@ __all__ = [
     "unique",
     "duplicates",
     "compact",
-    "shuffle",
-    "sample",
-    "sample_one",
     "is_prime",
     "is_armstrong",
     "fibonacci",
