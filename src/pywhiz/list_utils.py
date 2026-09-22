@@ -29,23 +29,3 @@ def compact(lst):
             result.append(item)
     return result
 
-def shuffle(lst):
-    """Returns a new shuffled copy of a list."""
-    copied = list(lst)
-    random.shuffle(copied)
-    return copied
-
-def sample(lst, count=1):
-    """Picks random items from a list safely."""
-    if not lst:
-        return []
-    k = count
-    if k > len(lst):
-        k = len(lst)
-    return random.sample(lst, k)
-
-def sample_one(lst):
-    """Picks a single random item from a list."""
-    if not lst:
-        return None
-    return random.choice(lst)
